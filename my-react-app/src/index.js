@@ -3,33 +3,13 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import MyFirstCom from './myFirstCom';
-import ComponentOne from './TenComponents/ComponentOne';
-import ComponentTwo from './TenComponents/ComponentTwo';
-import ComponentThree from './TenComponents/ComponentThree';
-import ComponentFour from './TenComponents/ComponentFour';
-import ComponentFive from './TenComponents/ComponentFive';
-import ComponentSix from './TenComponents/ComponentSix';
-import ComponentSeven from './TenComponents/ComponentSeven';
-import ComponentEight from './TenComponents/ComponentEight';
-import ComponentNine from './TenComponents/ComponentNine';
-import ComponentTen from './TenComponents/ComponentTen';
-import MasterComponent from './Tencomponents/MasterComponenet';
+
+
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <MyFirstCom />
-    <ComponentOne />
-    <ComponentTwo />
-     <ComponentThree />
-      <ComponentFour />
-       <ComponentFive />
-        <ComponentSix />
-         <ComponentSeven />
-          <ComponentEight />
-           <ComponentNine />
-            <ComponentTen />
-            <MasterComponent/>
+    <App/>
   </React.StrictMode>,
   document.getElementById('root')
 );
